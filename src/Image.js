@@ -7,7 +7,6 @@ function Image(props) {
     <ThemeContextConsumer>
       {context => (
         <div className={`${context.theme}-image image`}>
-          <div className={`${context.theme}-ball ball`} />
           <Button />
         </div>
       )}

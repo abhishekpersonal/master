@@ -7,12 +7,6 @@ function Button(props) {
       {context => (
         <button onClick={context.toggleTheme} className="button">
           Switch
-          <span role="img" aria-label="sun">
-            🌞
-          </span>
-          <span role="img" aria-label="moon">
-            🌚
-          </span>
         </button>
       )}
     </ThemeContextConsumer>
